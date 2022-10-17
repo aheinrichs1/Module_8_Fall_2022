@@ -35,4 +35,4 @@ if __name__ == '__main__':
     print(switch_level('S'))
 
 # is this the assignment? Seemed waay easier than what you made it out
-# to be in the video,, too easy
+# to be in the video,, too easy.
