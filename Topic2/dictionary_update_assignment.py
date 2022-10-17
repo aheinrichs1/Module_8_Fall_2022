@@ -25,7 +25,6 @@ def get_test_scores():
     Asks user for number of input and then stores each input in a dictionary
     :return: A dict of inputted scores
     """
-
     scores_dict = dict()
     num_scores = int(input("Enter number of scores you'd like to input: "))
     for num in range(num_scores):
@@ -39,6 +38,11 @@ def get_test_scores():
 
 
 def average_scores(input_dict):
+    """
+    Averages the scores of a dictionary input
+    :param input_dict: dictionary to be inputted
+    :return: an int of the average
+    """
     try:
         num_scores = len(input_dict)
         total_value = 0
